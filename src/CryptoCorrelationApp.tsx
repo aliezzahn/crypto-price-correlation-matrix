@@ -714,7 +714,7 @@ const CryptoCorrelationMatrix = () => {
     >
       {/* Header with theme toggle */}
       <header
-        className={`px-4 py-4 shadow-md ${
+        className={`fixed right-0 left-0 top-0 px-4 py-4 shadow-md ${
           darkMode ? "bg-gray-800 text-white" : "bg-white text-gray-800"
         }`}
       >
@@ -735,7 +735,7 @@ const CryptoCorrelationMatrix = () => {
       </header>
 
       {/* Main content */}
-      <main className="container mx-auto px-4 py-6 mb-16">
+      <main className="container mx-auto px-4 py-6 mb-16 mt-16">
         {renderContent()}
       </main>
 
